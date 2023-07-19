@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Big Button Link</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <button id="bigButton" style="font-size: 24px; padding: 20px 40px;">Click Me!</button>
+    </div>
+
+    <script>
+        // Replace 'YOUR_LINK_URL' with the actual URL you want to open
+        const linkUrl = 'https://www.example.com';
+
+        const bigButton = document.getElementById('bigButton');
+        bigButton.addEventListener('click', function () {
+            window.location.href = linkUrl;
+        });
+    </script>
+</body>
+</html>
