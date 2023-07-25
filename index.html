@@ -9,25 +9,73 @@
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      color: #000; /* Change the text color to black */
-      background-color: #fff; /* Change the background color to black */
+      color: #333; /* Change the text color to a dark shade */
+      background-color: #f9f9f9; /* Change the background color to a light shade */
     }
 
-    /* The rest of your existing CSS styles... */
+    header {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
 
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    a {
+      display: block;
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    a:hover {
+      background-color: #0056b3; /* Darker shade on hover */
+    }
+
+    h2 {
+      margin-top: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      a {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to Rahman's Website!</h1>
-  
-  <p>This is my main website.</p>
-  
-  <h2>Explore more:</h2>
-  
-  <ul>
-    <li><a href="https://oprangerx.github.io/main/">Coming Soon</a></li>
-    <li><a href="mcpe.html">Minecraft Play</a></li>
-    <li><a href="https://youtu.be/dQw4w9WgXcQ">Owner Only</a></li>
-  </ul>
+  <header>
+    <h1>Welcome to Rahman's Website!</h1>
+  </header>
+  <main>
+    <p>This is my main website.</p>
+    <h2>Explore more:</h2>
+    <ul>
+      <li><a href="https://oprangerx.github.io/main/">Coming Soon</a></li>
+      <li><a href="mcpe.html">Minecraft Play</a></li>
+      <li><a href="https://youtu.be/dQw4w9WgXcQ">Owner Only</a></li>
+    </ul>
+  </main>
 </body>
 </html>
